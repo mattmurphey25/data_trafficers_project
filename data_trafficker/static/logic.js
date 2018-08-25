@@ -17,7 +17,7 @@ function plot(startDate, endDate) {
         incidents.push(d.Number_of_Incidents);
         volume.push(d.Total_Volume);
         speed.push(d.Average_Speed);
-        time.push(`${d.Date} ${d.Hour}:${d.Minute}`);
+        time.push(`${d.Date} ${d.Hour}:00`);
       });
   
     var trace1 = {
